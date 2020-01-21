@@ -1,0 +1,12 @@
+# Author    : Zeng Zhiwei
+# Date      : 2020/1/21
+
+DATASET:
+    TRAIN: ("VOC2007Train", "VOC2007Val")
+    TEST: ("VOC2007Test",)
+DATALOADER:
+    NUM_WORKERS : 4
+SOLVER:
+    MAX_ITER : 40000
+    MILESTONES : (35000, 38000)
+    BATCH_SIZE : 8
